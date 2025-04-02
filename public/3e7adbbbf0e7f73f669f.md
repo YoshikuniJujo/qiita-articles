@@ -164,7 +164,7 @@ inj = UnionValue $ unP (elemNo :: P a as)
 ```haskell:src/OpenUnionValue.hs
 prj :: forall a as . Member a as => UnionValue as -> Maybe a
 prj (UnionValue i x)
-        | i = unP (elemNo :: P a as) = Just $ unsafeCoerce x
+        | i == unP (elemNo :: P a as) = Just $ unsafeCoerce x
         | otherwise = Nothing
 ```
 
