@@ -5,7 +5,7 @@ tags:
   - freer-effects
   - open-union
 private: false
-updated_at: '2019-09-25T11:18:01+09:00'
+updated_at: '2025-04-02T16:48:03+09:00'
 id: 3e7adbbbf0e7f73f669f
 organization_url_name: null
 slide: false
